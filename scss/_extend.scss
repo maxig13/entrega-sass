@@ -1,0 +1,9 @@
+.estiloParrafos {
+    font-weight: bold;
+    font-size: 20x;
+}
+
+.estiloMenu {
+    @extend .estiloParrafos;
+    text-decoration: none;
+}

@@ -1,0 +1,9 @@
+$mapRedes:(facebook:#f6f2ee, instagram: #f6f2ee);
+@each $social, $color in $mapRedes {
+    .#{red} {
+        color: $color
+    }
+}
+
+$estilo:(color:#f6f2ee, sizeFuente: 20px);
+
